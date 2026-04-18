@@ -1,0 +1,77 @@
+/* 清除页面边距 */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* 父元素 */
+#main{
+    margin: 20px auto;
+    width: 1198px;
+    height: 490px;
+    border: 1px solid rgb(232, 232, 232);
+}
+/* 设置顶部top */
+.top{
+    width: 100%;
+    height: 48px;
+    line-height: 48px;
+    background-color: rgb(250, 245, 238);
+    
+}
+.logo,.caidan{
+    float: left;
+}
+.logo{
+    height: 48px;
+    width: 48px;
+}
+.caidan{
+    color: black;
+    cursor: pointer;
+    margin: 0 10px;
+}
+/* 设置浮动 */
+.left,.banner,.right{
+    float: left;        /*靠左排列浮动*/
+}
+/* 左部分 */
+#main .left{
+    width: 200px;
+    height: 490px;
+    background-color: rgb(115, 84, 58);
+}
+.left ul>li{
+    list-style: none;   /*取消列表项目样式*/
+    width: 200px;
+    height: 40px;
+    line-height: 40px;  /*高与行高的值相同，可使文本内容居中*/
+    margin-top: 8px;
+}
+.left a{
+    display: inline-block;
+    width: 180px;
+    height: 40px;
+    color: white;
+    padding-left: 20px;
+    text-decoration: none;  /*取消超链接的文本修饰*/
+}
+/* 设置鼠标悬停效果 */
+.left a:hover{
+    width: 200px;
+    height: 40px;
+    background-color: #CC9999;
+    cursor: pointer;
+}
+/* 设置中间部分 */
+.banner{
+    width: 800px;
+    height: 490px;
+}
+/* 设置中间部分图片 */
+.img1,.img2{
+    display: block;     /*转换为块元素*/
+}
+/* 设置右部分 */
+.right{
+    width: 198px;
+}
